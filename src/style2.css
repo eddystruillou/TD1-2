@@ -5,7 +5,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   overflow: scroll;
 }
-
+/* ---> Modifications sur la div du Synopsis <--- */
 .cadre {
   display: flex;
   flex-direction: column;
@@ -16,7 +16,9 @@
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0px 0px 15px black;
 }
+/* <--------------------------------------------> */
 
+/* ---> Modifications sur les polices, titres <--- */
 h1 {
   color: white;
   font-family: Verdana, sans-serif;
@@ -26,9 +28,12 @@ h1 {
 p {
   color: white;
   font-family: Verdana, sans-serif;
+  font-size: 20px;
   margin-left: 15px;
 }
+/* <--------------------------------------------> */
 
+/* ---> Modifications sur l'image <--- */
 .cadre img {
   width: 200px;
   margin-left: 15px;
@@ -38,7 +43,9 @@ p {
     transform: none;
     border: none;
 }
+/* <----------------------------------> */
 
+/* ---> Modifications sur le button <--- */
 .cadre button {
   height: 50px;
   font-size: 25px;
@@ -48,3 +55,4 @@ p {
   border-radius: 10px 10px 10px 10px;
   border: 0;
 }
+/* <-----------------------------------> */
