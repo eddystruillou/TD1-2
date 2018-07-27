@@ -16,6 +16,10 @@
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0px 0px 15px black;
 }
+
+.cadrePara {
+  
+}
 /* <--------------------------------------------> */
 
 /* ---> Modifications sur les polices, titres <--- */
@@ -56,3 +60,7 @@ p {
   border: 0;
 }
 /* <-----------------------------------> */
+
+/* ---> Media Query pour ecrans 1024p et 720p <--- */
+
+/* <---------------------------------------------> */

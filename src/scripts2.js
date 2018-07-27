@@ -14,14 +14,18 @@ function afficheInfos() {
   const syn = document.createElement('h1')
   syn.innerText = this.title
   cadre.appendChild(syn)
-
+  
   const poster = document.createElement('img')
   poster.src = this.imagesURL
   cadre.appendChild(poster)
 
+  const cadrePara = document.createElement('div')
+  cadrePara.className = 'cadrePara'
+  cadre.appendChild(cadrePara)
+
   const conten = document.createElement('p')
   conten.innerText = this.synopsis
-  cadre.appendChild(conten)
+  cadrePara.appendChild(conten)
 
   const bouton = document.createElement('button')
   bouton.innerText = "Close"
