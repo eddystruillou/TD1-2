@@ -4,7 +4,9 @@
   "description": "td 1 movies",
   "main": "index.js",
   "scripts": {
-    "serve": "stencil-dev-server --root src --httpPort 8080"
+    "serve": "stencil-dev-server --root src --httpPort 8080",
+    "build": "grunt",
+    "start": "serve dist"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,16 @@
   "homepage": "https://github.com/eddystruillou/TD1-2#readme",
   "dependencies": {
     "@stencil/dev-server": "0.0.18"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-uglify-es": "^3.3.0",
+    "grunt-dom-munger2": "^4.0.1",
+    "grunt-json-minification": "^0.2.1",
+    "serve": "^9.4.0"
   }
 }
